@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.css-byaxn1-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input{
+  padding: 0 !important;
+}

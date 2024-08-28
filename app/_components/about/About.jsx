@@ -18,13 +18,13 @@ const About = () => {
     return (
         <div className="w-full mx-auto p-4 shadow-lg z-0">
             {/* Business Information */}
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-between mb-4">
                 <div className="space-y-2">
-                    <h1 className="text-xl whitespace-nowrap font-bold">SHREE HEMKUNT TYRES AND SERVICES</h1>
+                    <h1 className="text-[14px] sm:text-lg whitespace-nowrap font-bold md:text-xl">SHREE HEMKUNT TYRES AND SERVICES</h1>
                     <div className="flex items-center mt-2 gap-2">
                         <span className="bg-green-800 font-bold text-white px-1 rounded-sm text-xs mr-2">4.9</span>
                         <span className="text-yellow-500">★★★★★</span>
-                        <span className="text-gray-600 ml-2 underline">2278 Reviews</span>
+                        <span className="text-gray-600 ml-2 underline text-[12px] md:text-[14px]">2278 Reviews</span>
                         <button className="text-gray-400 px-2 rounded-sm border border-gray-400 text-[13px]">Rate</button>
                     </div>
                     <p className="mt-2 text-[13px] w-[70%]">
@@ -37,7 +37,7 @@ const About = () => {
             </div>
             <div className="border-t pt-4 w-full">
                 <h2 className="text-xl font-semibold mb-4">2278 Google Reviews</h2>
-                <div className="grid grid-cols-3 gap-3">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                     {reviews.map((review, index) => (
                         <ReviewCard key={index} name={review.name} review={review.review} />
                     ))}

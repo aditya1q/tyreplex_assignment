@@ -22,7 +22,7 @@ const Carousel = ({ images }) => {
     }, [images.length]); // Dependency on images.length to reset interval if images change
 
     return (
-        <div className="relative w-[35%] mx-auto">
+        <div className="relative w-full md:w-[35%] mx-auto">
             <div className="overflow-hidden">
                 <div className="flex transition-transform duration-500" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                     {images.map((src, index) => (

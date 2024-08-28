@@ -9,7 +9,7 @@ const Service = () => {
     ];
 
     return (
-        <div className='bg-white p-4 shadow-lg'>
+        <div className='bg-white p-4 shadow-lg w-full'>
             <h1 className='text-[16px] font-bold'>Service Offered by this dealer</h1>
             <ServiceCard images={Images}/>
         </div>
