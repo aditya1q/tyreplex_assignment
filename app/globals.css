@@ -32,6 +32,6 @@ body {
   }
 }
 
-.css-byaxn1-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input{
+.css-byaxn1-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input, .css-116xjt .MuiOutlinedInput-root .MuiAutocomplete-input{
   padding: 0 !important;
 }

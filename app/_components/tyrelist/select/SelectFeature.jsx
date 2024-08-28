@@ -24,8 +24,8 @@ const SelectFeature = () => {
     ]
     return (
         <div className='flex flex-col lg:flex-row items-center gap-5'>
-            <Select data={tyreBrands} />
-            <Select data={tyreFilter} />
+            <Select data={tyreBrands} labelName='Tyre Brands'/>
+            <Select data={tyreFilter} labelName='Tyre Filter'/>
         </div>
     )
 }
