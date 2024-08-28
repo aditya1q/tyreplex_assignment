@@ -1,17 +1,14 @@
-import { About, Navbar, Deals, Service, Payment, Footer, TyreList } from './index';
+import { About, Deals, Service, Payment, Footer, TyreList } from './index';
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-3 w-full bg-inherit">
-      <Navbar />
-      <div className='flex flex-col gap-3 w-[87%] mx-auto z-0'>
-        <About />
-        <Deals />
-        <Service />
-        <TyreList />
-        <Payment />
-        <Footer />
-      </div>
+    <main className='flex flex-col gap-3 w-full lg:w-[87%] mx-auto z-0'>
+      <About />
+      <Deals />
+      <Service />
+      <TyreList />
+      <Payment />
+      <Footer />
     </main>
   );
 }

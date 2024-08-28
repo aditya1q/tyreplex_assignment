@@ -5,10 +5,10 @@ import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined
 
 const Navbar = () => {
     return (
-        <nav className='flex items-center justify-between px-28 w-full shadow-md h-12 text-[14px] bg-white font-bold top-0 sticky z-20'>
+        <nav className='flex items-center justify-between px-8 md:px-28 w-full shadow-md h-12 text-[14px] bg-white font-bold top-0 sticky z-20'>
             <Image src={logo} height='100%' width='100%' />
             <div className=''>
-                <ul className="flex items-center gap-6 hidden md:flex">
+                <ul className="items-center gap-6 hidden md:flex">
                     <li><a href="#car-tyres" className="hover:text-gray-700">Car Tyres</a></li>
                     <li><a href="#bike-tyres" className="hover:text-gray-700">Bike Tyres</a></li>
                     <li><a href="#tyre-pressure" className="hover:text-gray-700">Tyre Pressure</a></li>
